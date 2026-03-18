@@ -33,26 +33,6 @@ A full-stack platform where employees submit complaints, management tracks and r
 | Database | MongoDB via Mongoose |
 | Auth | JWT (Bearer token) |
 
----
-
-## Project Structure
-
-```
-neoconnect/
-├── server/               # Express.js backend
-│   ├── models/           # Mongoose schemas
-│   ├── routes/           # API routes
-│   ├── middleware/        # Auth middleware
-│   ├── utils/            # Cron job, file upload
-│   ├── server.js         # Entry point
-│   ├── seed.js           # Demo data seeder
-│   └── .env.example
-└── client/               # Next.js frontend
-    └── src/
-        ├── app/          # App Router pages
-        ├── components/   # Shared components
-        └── lib/          # API client, auth context, utils
-```
 
 ---
 ## Setup Instructions
