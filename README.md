@@ -55,7 +55,6 @@ neoconnect/
 ```
 
 ---
-
 ## Setup Instructions
 
 ### Prerequisites
